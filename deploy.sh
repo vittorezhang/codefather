@@ -6,6 +6,6 @@ cd dist
 git init
 git add -A
 git commit -m 'deploy'
-
-git push -f git@github.com:vittorezhang/codefather.git dev
+# xx.xx.xx.xx为云服务器地址
+git push -f --set-upstream git@175.178.57.58:/home/git/project.git dev
 cd - 
